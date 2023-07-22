@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="43.637">
+    <testcase classname="Cucumber_Final" name="FinalProject Mobile" time="43.404">
+        <system-out><![CDATA[Given Opening the browser...................................................passed
+And Enter Email.............................................................passed
+And Enter Password..........................................................passed
+Then Click Captcha..........................................................passed
+When Click Login............................................................passed
+Then Click Service..........................................................passed
+And Click Order New services................................................passed
+Then Click Mobile...........................................................passed
+Then Click Order Now........................................................passed
+And Click Contunie..........................................................passed
+When Validate If Added......................................................passed
+Then Click Checkout.........................................................passed
+And Click Complete Order....................................................passed
+Then Get Invoice Number.....................................................passed
+And Close Browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

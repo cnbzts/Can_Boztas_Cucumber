@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-22T05:17:43.509Z",
+        "line": 3,
+        "name": "FinalProject Mobile",
+        "description": "",
+        "id": "cucumber-final;finalproject-mobile",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4177756500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Opening the browser",
+            "match": {
+              "location": "stepdefinitions.CommonSteps.opening_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146012700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Email",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.Enter_Email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110009000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Password",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.Enter_Passowrd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20265292600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Captcha",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.Click_Captcha()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7665772900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.Click_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63350100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Service",
+            "match": {
+              "location": "stepdefinitions.ClientAreaPageSteps.Click_Service()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1256992300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Order New services",
+            "match": {
+              "location": "stepdefinitions.ClientAreaPageSteps.Click_Order_New_services()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599093700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Mobile",
+            "match": {
+              "location": "stepdefinitions.StorePageSteps.Click_mobile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1357183900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Order Now",
+            "match": {
+              "location": "stepdefinitions.MobilePageSteps.Click_Order_Now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66003200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Contunie",
+            "match": {
+              "location": "stepdefinitions.MobilePageSteps.click_Contunie()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94929100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate If Added",
+            "match": {
+              "location": "stepdefinitions.MobilePageSteps.validate_If_Added()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2866690000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Checkout",
+            "match": {
+              "location": "stepdefinitions.MobilePageSteps.click_Checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4494694100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click Complete Order",
+            "match": {
+              "location": "stepdefinitions.MobilePageSteps.click_Complete_Order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27002500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Get Invoice Number",
+            "match": {
+              "location": "stepdefinitions.InvoicePageSteps.get_Invoice_Number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112007900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Close Browser",
+            "match": {
+              "location": "stepdefinitions.InvoicePageSteps.close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber_Final",
+    "description": "",
+    "id": "cucumber-final",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/FinalProject.feature",
+    "tags": []
+  }
+]
